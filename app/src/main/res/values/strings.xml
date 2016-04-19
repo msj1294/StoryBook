@@ -1,0 +1,10 @@
+<resources>
+    <string name="title">TITLE</string>
+    <string name="primary_text">Main Menu</string>
+    <string name="button1">Story List</string>
+    <string name="button2">Settings</string>
+    <string name="storyListButton1">Little Red Riding Hood</string>
+    <string name="storyListString">Story List</string>
+    <string name ="llrhString">This is the story of Little Red Riding Hood</string>
+    <string name = "nextButton">Next</string>
+</resources>
