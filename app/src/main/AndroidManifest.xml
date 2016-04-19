@@ -17,7 +17,7 @@
         </activity>
         <activity android:name="StoryButtonActivity"/>
         <activity android:name="StoryViewActivity"/>
-
+        <activity android:name="ImageChoice"/>
     </application>
 
 </manifest>

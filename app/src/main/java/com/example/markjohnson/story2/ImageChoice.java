@@ -25,9 +25,9 @@ public class ImageChoice extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //Intent i = new Intent(getApplicationContext(),Main2Activity.class);
-                //i.putExtra("wolf",wolf_string);
-                //startActivity(i);
+                Intent i = new Intent(getApplicationContext(),StoryViewActivity.class);
+                i.putExtra("wolf",wolf_string);
+                startActivity(i);
             }
         });
         button_1.setOnClickListener(new View.OnClickListener() {

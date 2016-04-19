@@ -7,11 +7,22 @@
     android:background="@drawable/forest_background">
 
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lrrh_image1" />
+
     <Space
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight=".80"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llrh_image2"
+        android:layout_gravity="right" />
 
     <RelativeLayout
         android:id="@+id/overviewBottomBar"
