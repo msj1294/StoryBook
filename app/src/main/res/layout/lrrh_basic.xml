@@ -8,9 +8,11 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/lrrh_image1" />
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/lrrh_image1"
+        android:scaleType="fitXY"
+        android:src="@drawable/wolf_1" />
 
     <Space
         android:layout_width="wrap_content"
@@ -19,16 +21,16 @@
         android:layout_weight=".80"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/llrh_image2"
-        android:layout_gravity="right" />
+        android:src="@drawable/girl_1"
+        android:scaleType="fitXY" />
 
     <RelativeLayout
         android:id="@+id/overviewBottomBar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_gravity="bottom"
         android:layout_weight=".20">
 
         <TextView
@@ -37,14 +39,16 @@
             android:layout_height="wrap_content"
             android:text="@string/llrhString"/>
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/nextButton"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:onClick="nextButton"/>
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nextButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="nextButton"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

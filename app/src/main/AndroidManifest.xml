@@ -18,6 +18,7 @@
         <activity android:name="StoryButtonActivity"/>
         <activity android:name="StoryViewActivity"/>
         <activity android:name="ImageChoice"/>
+        <activity android:name="ImageChoice2"/>
     </application>
 
 </manifest>
