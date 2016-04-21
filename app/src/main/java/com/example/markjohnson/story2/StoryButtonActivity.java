@@ -21,6 +21,6 @@ public class StoryButtonActivity extends AppCompatActivity {
     }
 
     public void llrhButton(View view) {
-        startActivity(new Intent(StoryButtonActivity.this, StoryViewActivity.class));
+        startActivity(new Intent(StoryButtonActivity.this, ImageChoice.class));
     }
 }

@@ -19,7 +19,7 @@
         jar="/Users/markjohnson/Downloads/Story2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="87cf9609fc74ca173b7939bde4b19a1fbd7925fa">
+        sha1="1d5b836c2ff7fdc4c13700371cca8662e41dad08">
         <dex dex="/Users/markjohnson/Downloads/Story2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b49cf8d8f1c352f508fa244023727627ce8ce19d/classes.dex" />
     </item>
     <item
@@ -33,7 +33,7 @@
         jar="/Users/markjohnson/Downloads/Story2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="4a64d76f7b1245d351876927b7b5592ffc4c759e">
+        sha1="d01a38e6d2849e4864b5d9356c70278fbdcd8b7a">
         <dex dex="/Users/markjohnson/Downloads/Story2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da3cfb55c4492c05b79b782031362f62bdf35a8d/classes.dex" />
     </item>
     <item
