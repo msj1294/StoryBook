@@ -18,9 +18,22 @@ public class StoryButtonActivity extends AppCompatActivity {
         setContentView(R.layout.story_list);
         mainTextView = (TextView) findViewById(R.id.story_list_textview);
         button1 = (Button) findViewById(R.id.button1);
-    }
+        button1.setOnClickListener(new View.OnClickListener() {
 
+<<<<<<< HEAD
     public void llrhButton(View view) {
         startActivity(new Intent(StoryButtonActivity.this, ImageChoice.class));
+=======
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),ImageChoice.class);
+                startActivity(i);
+            }
+        });
+>>>>>>> kevin
     }
+
+    //public void llrhButton(View view) {
+    //    startActivity(new Intent(StoryButtonActivity.this, ImageChoice.class));
+    //}
 }

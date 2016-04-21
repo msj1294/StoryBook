@@ -18,8 +18,12 @@
         <activity android:name="StoryButtonActivity"/>
         <activity android:name="StoryViewActivity"/>
         <activity android:name="ImageChoice"/>
+<<<<<<< HEAD
 
 
+=======
+        <activity android:name="ImageChoice2"/>
+>>>>>>> kevin
     </application>
 
 </manifest>

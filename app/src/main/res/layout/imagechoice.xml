@@ -7,6 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
+=======
+    tools:context="com.example.kevin.myapplication.MainActivity"
+>>>>>>> kevin
     android:visibility="visible">
 
     <TextView
