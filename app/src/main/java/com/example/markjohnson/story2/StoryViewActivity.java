@@ -29,6 +29,12 @@ public class StoryViewActivity extends AppCompatActivity {
     }
 
     public void nextButton(View view) {
-        mainTextView.setText(llrhStory.nextLine());
+        String storyLine = llrhStory.nextLine();
+        if(storyLine!=null){
+            mainTextView.setText(storyLine);
+        }
+        else{
+            startActivity(new Intent(StoryViewActivity.this, MainActivity.class));
+        }
     }
 }
